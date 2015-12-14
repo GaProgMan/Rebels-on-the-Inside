@@ -1,0 +1,20 @@
+[
+  {
+    "rebelImg" : "images/circle.png",
+    "rebelAlt": "Rebel Jess",
+    "rebelName" : "Jess",
+    "rebelDescription": "<p>One of the founding Rebels, Jess brings the vocal attack.</p>"
+  },
+  {
+    "rebelImg" : "images/circle.png",
+    "rebelAlt": "Rebel Jamie",
+    "rebelName" : "Jamie",
+    "rebelDescription": "<p>Another of the founding Rebels, Jamie brings the funk.</p>"
+  },
+  {
+    "rebelImg" : "images/circle.png",
+    "rebelAlt": "Rebel Dave",
+    "rebelName" : "Dave",
+    "rebelDescription": "<p>Dave, also known as The Animal, brings the unpredictability.</p>"
+  }
+]

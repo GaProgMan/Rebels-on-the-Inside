@@ -1,48 +1,41 @@
-<div class="navbar navbar-default" role="navigation">
-  <div class="container">
-    <!-- <div class="navbar-header">
-
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+<div class="container">
+  <nav class="navbar navbar-default" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
       </button>
+    </div>
 
-    </div> -->
-
-    <!-- <div class="collapse navbar-collapse" id="js-navbar-collapse">
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="navbar-collapse navbar-ex1-collapse collapse" aria-expanded="false" style="height: 1px;">
       <ul class="nav navbar-nav">
-        <li><a ui-sref-active="active" ui-sref="home">Home</a></li>
-        <li><a ui-sref-active="active" ui-sref="about">About</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" id="infoDropdown">Band Info<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a ui-sref-active="active" ui-sref="history">History</a></li>
+            <li><a ui-sref-active="active" ui-sref="members">Members</a></li>
+            <li><a href="#">Equipment</a></li>
+            <li><a href="#">Recordings</a></li>
+          </ul>
+        </li>
+       <li><a href="#">Shows</a></li>
+       <li><a href="#">Blog</a></li>
+
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" id="sharingDropdown">Social<b class="caret"></b></a>
+          <ul class="dropdown-menu" id="shareList">
+            <li id="facebookShare"><a href="#"><i class="fa fa-facebook-official"></i> Facebook</a></li>
+            <li><a href="#"><i class="fa fa-google-plus-square"></i> Google Plus</a></li>
+            <li><a href="#"><i class="fa fa-reddit-square"></i> Reddit</a></li>
+            <li><a href="#"><i class="fa fa-tumblr-square"></i> Tumblr</a></li>
+            <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+          </ul>
+        </li>
       </ul>
-    </div> -->
-
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-       <li class="dropdown">
-         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="infoDropdown">Band Info<b class="caret"></b></a>
-         <ul class="dropdown-menu">
-           <li><a href="band-info/history.html">History</a></li>
-           <li><a href="band-info/members.html">Members</a></li>
-           <li><a href="#">Equipment</a></li>
-           <li><a href="#">Recordings</a></li>
-         </ul>
-         </li><li><a href="#">Shows</a></li>
-         <li><a href="#">Blog</a></li>
-
-       <li class="dropdown">
-         <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="sharingDropdown">Social<b class="caret"></b></a>
-         <ul class="dropdown-menu" id="shareList">
-           <li id="facebookShare"><a href="#"><i class="fa fa-facebook-official"></i> Facebook</a></li>
-           <li><a href="#"><i class="fa fa-google-plus-square"></i> Google Plus</a></li>
-           <li><a href="#"><i class="fa fa-reddit-square"></i> Reddit</a></li>
-           <li><a href="#"><i class="fa fa-tumblr-square"></i> Tumblr</a></li>
-           <li><a href="#"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-         </ul>
-       </li>
-     </ul>
-   </div>
-
-  </div>
+    </div><!-- /.navbar-collapse -->
+  </nav>
 </div>

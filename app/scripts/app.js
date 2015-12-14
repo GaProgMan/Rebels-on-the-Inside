@@ -30,5 +30,15 @@ angular
         url: '/about',
         templateUrl: 'views/about.html',
         controller: 'aboutCtrl'
+      })
+      .state('history', {
+        url: '/band-info/band-history',
+        templateUrl: 'views/band-info/band-history.html',
+        controller: 'bandHistoryCtrl'
+      })
+      .state('members', {
+        url: '/band-info/band-members',
+        templateUrl: 'views/band-info/band-members.html',
+        controller: 'bandMembersCtrl'
       });
   }]);

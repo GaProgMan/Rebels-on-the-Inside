@@ -1,0 +1,17 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h3>{{title}}</h3>
+
+    <div class="row" ng-repeat="rebel in rebels">
+      <div class="rebel">
+        <div class="col-sm-4">
+          <img ng-src="{{rebel.rebelImg}}" alt="{{rebel.rebelAlt}}" class="img-responsive">
+        </div>
+        <div class="col-sm-8">
+          <h4>{{rebel.rebelName}}</h4>
+          <div class="rebel-description" ng-bind-html="rebel.rebelDescription"/>
+        </div>
+      </div>
+    </div>
+    
+</div>
