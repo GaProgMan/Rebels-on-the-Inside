@@ -1,0 +1,59 @@
+[
+  {
+    "name" : "Dave",
+    "role" : "Drummer",
+    "instruments": [
+      {
+        "name" : "Awesome Drumkit",
+        "description" : [
+          {
+            "paragraph" : "Some stuff in here about Dave's drums I guess."
+          }
+        ],
+        "imageUrl": "http://muppethub.com/wp-content/uploads/2014/02/Animal-7.png",
+        "imageAltText" : "Alt text for drums image",
+        "hoverText" : "Boo!"
+      }
+    ]
+  },
+  {
+    "name" : "Jamie",
+    "role" : "Bass",
+    "instruments" : [
+      {
+        "name" : "Epiphone Toby Deluxe-V",
+        "description" : [
+          {
+            "paragraph" : "The Toby Deluxe-V allows Jamie to hit the lower notes (it has a low B string), which means that his jams can make your gut feel funny."
+          },
+          {
+            "paragraph" : "the Toby Deluxe-V is an active bass, this means that Jamie can blast your face off with his cool grooves, too."
+          },
+          {
+            "paragraph" : "It's Jamie's fourth bass guitar, but his first five string."
+          }
+        ],
+        "imageUrl" : "http://im1.woodbrass.com/images/woodbrass/EBD5TRBH1-2.JPG",
+        "imageAltText" : "Jamie's Epiphone Toby Deluxe-V",
+        "hoverText" : "You found the hover text! Well done"
+      }
+    ]
+  },
+  {
+    "name" : "Jess",
+    "role" : "Singer",
+    "instruments" : [
+      {
+        "name" : "Wireless Microphone and receiver",
+        "description" : [
+          {
+            "paragraph" : "Moar text here about Jess' microphone."
+          }
+        ],
+        "imageUrl" : "http://www.hisonic.net/MICS/HS598H.jpg",
+        "imageAltText" : "Jess' microphone and wireless receiver set",
+        "hoverText" : ""
+      }
+    ]
+  }
+]

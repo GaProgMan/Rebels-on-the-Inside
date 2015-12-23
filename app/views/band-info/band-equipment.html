@@ -1,0 +1,23 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h2>{{title}}</h2>
+    <div class="history-entry" ng-repeat="elem in memberEquipment">
+      <h3>{{elem.name}} - {{elem.role}}</h3>
+      <div class="history-content" ng-repeat="instrument in elem.instruments">
+        <h4>{{instrument.name}}</h4>
+          <div class="row">
+            <div class="col-sm-4">
+              <img ng-src="{{instrument.imageUrl}}"
+                alt="{{instrument.imageAltText}}" class="img-responsive"
+                title="{{instrument.hoverText}}">
+            </div>
+            <div class="col-sm-8">
+              <div ng-repeat="desc in instrument.description">
+                <p>{{desc.paragraph}}</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
