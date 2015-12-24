@@ -1,7 +1,7 @@
 [
   {
     "date" : "October 2014",
-    "content" : "<p>Jess and Jamie met at <a href='http://www.jamstudios.co.uk/' target='_blank'>Jam Studios</a> to practise a few songs. the set list was:</p><ul><li>Just a Girl - No Doubt</li><li>Want You To Want Me - Letters to Cleo</li></ul><p>Neither Jamie or Jess had ever been to Jam studios before this point, and they certainly hadn't met in person either. They'd been communicating via <a href='http//www.joinmyband.co.uk/' target='_blank'>JoinMyBand</a> before this point.</p><p>Andy was there to, providing the essential guitar parts, but shortly after the first session he decided that it wasn't for him.</p>"},
+    "content" : "<p>Jess and Jamie met at <a href='http://www.jamstudios.co.uk/' target='_blank'>Jam Studios</a> to practise a few songs. the set list was:</p><ul><li>Just a Girl - No Doubt</li><li>Want You To Want Me - Letters to Cleo</li></ul><p>Neither Jamie or Jess had ever been to Jam studios before this point, and they certainly hadn't met in person either. They'd been communicating via <a href='http://www.joinmyband.com' target='_blank'>JoinMyBand</a> before this point.</p><p>Andy was there to, providing the essential guitar parts, but shortly after the first session he decided that it wasn't for him.</p>"},
   {
     "date" : "November 2014",
     "content" :"<p>Jess and Jamie didn't take the loss of a guitarist as anything but a bump in the road. The continued on their quest for musical greatness. Jess had continued to look for a drummer while Jamie had some personal problems to figure out.</p><p>A break through with a guitarist happened part way through the month, as Joseph joined. Jess and Jamie travelled to the SkyRack to meet him and discuss our ideas for the band.</p>"
@@ -24,7 +24,11 @@
   },
   {
     "date" : "Summer 2015",
-    "content" : "<p>Over the summer and inbetween practise sessions, the Rebels became busy with personal life things. Practises where still being attended and great times where still had, but thing sgot a little in the way.</p><p>This was further compounded when Joseph decided that he wanted to move on to other projects. This meant that practise sessions came to a stand still at the end of summer, and into the beginning of the Autumn. The Rebels decided to take a little time off to regroup and rest up.</p>"
+    "content" : "<p>Over the summer and inbetween practise sessions, the Rebels became busy with personal life things. Practises where still being attended and great times where still had, but things got a little in the way.</p><p>This was further compounded when Joseph decided that he wanted to move on to other projects. This meant that practise sessions came to a stand still at the end of summer, and into the beginning of the Autumn. The Rebels decided to take a little time off to regroup and rest up.</p><p>It was also during this period that Jamie's brother (Mark) redesigned the band logo - the current version of this is used on the home page of the site.</p>"
+  },
+  {
+    "date" : "December 2015",
+    "content": "<p>During the Christmas period, Jamie decided to re-build the current website. It was all static HTML, but he'd decided to rebuild it using <a href='https://angularjs.org/' target='_blank'>Angular</a>. He really liked the outcome.</p>"
   },
   {
     "date" : "January 2016",
