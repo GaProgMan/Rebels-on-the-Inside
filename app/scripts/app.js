@@ -50,5 +50,10 @@ angular
         url : '/band-info/band-recordings',
         templateUrl : '/views/band-info/band-recordings.html',
         controller : 'bandRecordingsCtrl'
+      })
+      .state('shows', {
+        url: '/shows',
+        templateUrl:'/views/shows.html',
+        controller: 'showsCtrl'
       });
   }]);
