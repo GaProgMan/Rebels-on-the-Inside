@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('rebesWebsiteApp')
+  .module('rebelsWebsiteApp')
   .factory('BandMembers', ['$http', function($http){
     return {
       get: function(){

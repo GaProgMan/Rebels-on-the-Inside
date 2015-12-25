@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('rebesWebsiteApp')
+  .module('rebelsWebsiteApp')
   .controller('bandEquipmentCrtl', ['$scope', 'BandEquipment',
     function($scope, bandFactory) {
       $('#loading-spinner').show();

@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('rebesWebsiteApp')
+  .module('rebelsWebsiteApp')
   .controller('showsCtrl', ['$scope', function($scope) {
     $('#loading-spinner').show();
     $scope.title = 'Shows';

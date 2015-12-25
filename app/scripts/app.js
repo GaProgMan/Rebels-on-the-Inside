@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name rebesWebsiteApp
+ * @name rebelsWebsiteApp
  * @description
- * # rebesWebsiteApp
+ * # rebelsWebsiteApp
  *
  * Main module of the application.
  */
 angular
-  .module('rebesWebsiteApp', [
+  .module('rebelsWebsiteApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
