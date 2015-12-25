@@ -20,11 +20,16 @@ The site layout will be simple:
  * Shows
  * Blog
 
-Each of the pages (aside from the home page) will be loaded into the ui-view div via the controller attached to each state. All pages within the Band Information section will have content which is loaded via ajax, through custom services.
+Each of the pages (aside from the home page) will be loaded into the `ui-view` div via the controller attached to each state. All pages within the Band Information section will have content which is loaded via ajax, through custom services.
 
 Shows doesn't have a design yet, but will probably be a list of shows pulled from an external service.
 
 Blog will point at a self-hosted blog, with entries from members of the band (probably) with topics ranging from practice sessions (added after the fact) to live show details and musical influences.
+
+## Requirements
+
+ * Web server required on hosting platform (otherwise services will fail due to browser interpreting them as cross site scripting attacks).
+ * Node may be required on the web server - need to investigate.
 
 ## Version History
 
