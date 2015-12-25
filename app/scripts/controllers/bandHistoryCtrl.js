@@ -2,10 +2,18 @@
 
 angular
   .module('rebesWebsiteApp')
-  .controller('bandHistoryCtrl', ['$scope', 'BandHistory', function($scope, bandHistory) {
-    $scope.title = 'History';
+  .controller('bandHistoryCtrl', ['$scope', 'BandHistory',
+    function($scope, bandHistory) {
+      $('#loading-spinner').show();
 
-    bandHistory.get().then(function(data) {
-      $scope.history = data;
-    });
+      $scope.title = 'History';
+
+      bandHistory.get()
+        .success(function(data) {
+          $scope.history = data;
+          $('#loading-spinner').hide();
+        })
+        .error(function(err) {
+          console.log(err);
+        });
   }]);

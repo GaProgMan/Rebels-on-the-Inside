@@ -2,11 +2,14 @@
 
 angular
   .module('rebesWebsiteApp')
-  .controller('bandRecordingsCtrl', ['$scope', 'BandRecordings', function($scope, bandRecordings) {
-    $scope.title = 'Band Recordings';
+  .controller('bandRecordingsCtrl', ['$scope', 'BandRecordings',
+    function($scope, bandRecordings) {
+      $('#loading-spinner').show();
+      $scope.title = 'Band Recordings';
 
-    $scope.recordings = bandRecordings.get();
-    // bandRecordings.get().then(function(data) {
-    //   $scope.recordings = data;
-    // });
-  }]);
+      $scope.recordings = bandRecordings.get();
+      $('#loading-spinner').hide();
+      // bandRecordings.get().then(function(data) {
+      //   $scope.recordings = data;
+      // });
+    }]);

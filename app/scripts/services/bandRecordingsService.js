@@ -4,7 +4,7 @@ angular
   .module('rebesWebsiteApp')
   .factory('BandRecordings', ['$http', function($http){
     return {
-      get: function(){
+      get: function() {
         return [];
         // return [
         //   {

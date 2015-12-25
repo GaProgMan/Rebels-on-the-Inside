@@ -2,10 +2,17 @@
 
 angular
   .module('rebesWebsiteApp')
-  .controller('bandMembersCtrl',['$scope', 'BandMembers', function($scope, bandMembers) {
-    $scope.title = 'The Rebels';
+  .controller('bandMembersCtrl',['$scope', 'BandMembers',
+    function($scope, bandMembers) {
+      $('#loading-spinner').show();
 
-    bandMembers.get().then(function(data) {
-      $scope.rebels = data;
-    });
-  }]);
+      $scope.title = 'The Rebels';
+
+      bandMembers.get().success(function(data) {
+        $scope.rebels = data;
+        $('#loading-spinner').hide();
+      }).
+      error(function(err){
+        console.log(err);
+      });
+    }]);

@@ -6,8 +6,11 @@ angular
     return {
       get: function(){
         return $http.get('api/history.json')
-          .then(function(response){
+          .success(function(response){
             return response.data;
+          })
+          .error(function(data){
+            return data;
           });
       }
     };

@@ -6,9 +6,12 @@ angular
     return {
       get: function(){
         return $http.get('api/equipment.json')
-          .then(function(response){
-            return response.data;
-          });
+        .success(function(response){
+          return response.data;
+        })
+        .error(function(data){
+          return data;
+        });
       }
     };
   }]);

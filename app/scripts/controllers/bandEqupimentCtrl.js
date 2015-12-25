@@ -2,10 +2,18 @@
 
 angular
   .module('rebesWebsiteApp')
-  .controller('bandEquipmentCrtl', ['$scope', 'BandEquipment', function($scope, bandFactory) {
-    $scope.title = 'Band Equipment';
+  .controller('bandEquipmentCrtl', ['$scope', 'BandEquipment',
+    function($scope, bandFactory) {
+      $('#loading-spinner').show();
 
-    bandFactory.get().then(function(data) {
-      $scope.memberEquipment = data;
-    });
-  }]);
+      $scope.title = 'Band Equipment';
+
+      bandFactory.get()
+        .success(function(data) {
+          $scope.memberEquipment = data;
+          $('#loading-spinner').hide();
+        })
+        .error(function(err) {
+          console.log(err);
+        });
+    }]);
